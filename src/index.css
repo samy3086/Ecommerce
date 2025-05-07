@@ -1,0 +1,123 @@
+/* Container général */
+.container {
+  padding-top: 20px;
+}
+
+/* Cartes de produits */
+.card {
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Animation sur hover */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image du produit */
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Titre du produit */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Prix du produit */
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Boutons dans la carte */
+.btn {
+  width: 100%;
+}
+
+/* Bouton "Ajouter au panier" - NOUVELLE CLASSE */
+.add-to-cart-button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+/* Bouton "Ajouter au panier" - au survol */
+.add-to-cart-button:hover {
+  background-color: #333333;
+  border: none;
+  color: white;
+}
+
+/* Bouton "Ajouter au panier" - au clic */
+.add-to-cart-button:active {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+}
+
+/* Bouton "Voir le produit" - NOUVELLE CLASSE */
+.view-product-button {
+  margin-top: 5px;
+  background-color: white;
+  color: #000000;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s;
+}
+
+/* Bouton "Voir le produit" - au survol */
+.view-product-button:hover {
+  background-color: #f8f9fa;
+  color: #000000;
+  border: 1px solid #dee2e6;
+}
+
+/* Bouton Search - NOUVELLE CLASSE */
+.search-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+/* Bouton Search - au survol */
+.search-button:hover {
+  background-color: #f3f3f3;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+/* Bouton Search - au clic */
+.search-button:active {
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+
+/* Bouton panier */
+.cart-button {
+  background-color: white;
+  color: #000000;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s;
+}
+
+/* Bouton panier - au survol */
+.cart-button:hover {
+  background-color: #f8f9fa;
+  color: #000000;
+  border: 1px solid #dee2e6;
+}
+
+/* Correction de la classe Home-background */
+.Home-background {
+  background-color: #f50cf5;
+}
